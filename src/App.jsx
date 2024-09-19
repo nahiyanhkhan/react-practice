@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Books from "./Books";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
+    <div>
       <h1>Vite + React</h1>
-  )
+      <Person></Person>
+      <Books></Books>
+    </div>
+  );
 }
 
-export default App
+function Person() {
+  return <p>This is person</p>;
+}
+
+export default App;
