@@ -7,9 +7,8 @@ import Books from "./Books";
 function App() {
   return (
     <div>
-      <h1>Vite + React</h1>
-      <Person></Person>
-      <Books></Books>
+      <Person />
+      <Books />
     </div>
   );
 }
